@@ -1,0 +1,38 @@
+
+@import url();
+$font-stack: 'Open Sans';
+$primary-color: #333;
+
+* {
+    // color: rgb(109, 0, 0);
+    font-family: $font-stack;
+}
+
+body {
+    font-family: 100% $font-stack;
+    color: $primary-color;
+    background-color: rgb(255, 255, 255);
+}
+
+main {
+    padding-top: 5vw;
+    padding-right: 5vw; 
+    padding-left: 5vw; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 3rem;
+}
+
+p {
+    font-size: 20px;
+    // font-family: 'Trirong';
+}
+
+h1{
+    font-family: 'Kanit' !important;
+}
+
+.sub.header {
+    font-family: 'Kanit' !important;
+}
